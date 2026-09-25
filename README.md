@@ -5,9 +5,12 @@ Test page for rendering Gaussian splat 3D Tiles with
 `GaussianSplatGroup` from [mrdoob/three.js#34290](https://github.com/mrdoob/three.js/pull/34290).
 Requires a browser with WebGPU support.
 
-Run:
+three.js is included as a git submodule (the `gs3d-group` PR branch), so clone with
+submodules and then run a static server:
 
 ```
+git clone --recursive https://github.com/bhouston/3d-tiles-splat-test.git
+cd 3d-tiles-splat-test
 npx servez
 ```
 

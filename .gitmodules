@@ -1,0 +1,5 @@
+[submodule "three"]
+	path = three
+	url = https://github.com/bhouston/three.js.git
+	branch = gs3d-group
+	shallow = true
